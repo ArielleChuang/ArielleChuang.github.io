@@ -4,8 +4,13 @@ import Navbar from "./Navbar";
 import Home from "./home/Home";
 import About from "./about/About";
 import Portfolio from "./portfolio/Portfolio";
+import Simulation from './portfolio/project/Simulation';
+import CognitiveErgonomics from './portfolio/project/CognitiveErgonomics';
+import SoutheastMachinery from "./portfolio/project/SoutheastMachinery"
+import OperationsAnalysis from "./portfolio/project/OperationsAnalysis"
 import {Route, Routes} from "react-router-dom";
 import {Box, Grid} from "@mui/material";
+import SocialOstracism from './portfolio/project/SocialOstracism';
 
 export default function BaseLayout() {
    let [darkMode, setDarkMode] = useState(false);
@@ -39,6 +44,11 @@ export default function BaseLayout() {
                   <Route exact path={'/'} element={<Home/>}/>
                   <Route exact path={'/about'} element={<About/>}/>
                   <Route exact path={'/portfolio'} element={<Portfolio/>}/>
+                  <Route exact path={'/portfolio/Simulation'} element={<Simulation/>}/>
+                  <Route exact path={'/portfolio/CognitiveErgonomics'} element={<CognitiveErgonomics/>}/>
+                  <Route exact path={'/portfolio/SoutheastMachinery'} element={<SoutheastMachinery/>}/>
+                  <Route exact path={'/portfolio/SocialOstracism'} element={<SocialOstracism/>}/>
+                  <Route exact path={'/portfolio/OperationsAnalysis'} element={<OperationsAnalysis/>}/>
                </Routes>
             </Grid>
             <Grid item>

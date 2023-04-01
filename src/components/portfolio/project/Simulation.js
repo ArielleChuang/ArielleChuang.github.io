@@ -1,10 +1,10 @@
 import React from 'react';
 import {Box} from "@mui/material";
 
-export default function OperationsAnalysis() {
+export default function Simulation() {
     return (
       <Box display={'flex'}>
-         OperationsAnalysis!
+         Simulation!
       </Box>
     );
 };

@@ -25,7 +25,7 @@ of what each of the values mean.
 export const info = {
     firstName: "Tzu-Hsuan",
     lastName: "Chuang",
-    initials: "Chuang", // the example uses first and last, but feel free to use three or more if you like.
+    initials: "AC", // the example uses first and last, but feel free to use three or more if you like.
     position: "a MS in industrial engineering @ University of Michigan",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
@@ -105,14 +105,14 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            title: "Manufacturing Plant Simulation",
+            live: "/portfolio/Simulation", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
+            title: "Cognitive Ergonomics Case Study of TherapyRoute",
+            live: "/portfolio/CognitiveErgonomics",
             source: "https://github.com/paytonjewell",
             image: mock2
         },
@@ -123,22 +123,22 @@ export const info = {
             image: mock3
         },
         {
-            title: "Southeast Machinery Co., Ltd. – Applied Research in Project Management of Make-to-Order Production",
-            live: "../portfolio/project/SoutheastMachinery.js",
+            title: "Southeast Machinery Co. – Applied Research in Project Management of Make-to-Order Production",
+            live: "/portfolio/SoutheastMachinery",
+            source: "https://github.com/paytonjewell",
+            image: mock4
+        },
+        {
+            title: "Effects of Social Ostracism on Social Media Use",
+            live: "/portfolio/SocialOstracism",
             source: "https://github.com/paytonjewell",
             image: mock4
         },
         {
             title: "Operations Analysis and Improvement with Lean Manufacturing – A Case Study of Dongfong Restaurant",
-            live: "../portfolio/project/OperationsAnalysis",
+            live: "/portfolio/OperationsAnalysis",
             source: "https://github.com/paytonjewell",
             image: mock5
         }
-        // {
-        //     title: "Operations Analysis and Improvement with Lean Manufacturing – A Case Study of Dongfong Restaurant",
-        //     live: "https://paytonpierce.dev",
-        //     source: "https://github.com/paytonjewell",
-        //     image: mock5
-        // }
     ]
 }
